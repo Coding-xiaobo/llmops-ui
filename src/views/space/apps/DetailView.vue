@@ -151,7 +151,7 @@ const send = async () => {
             </a-button>
             <!-- 输入框组件 -->
             <div
-              class="h-[50px] flex items-center gap-2 px-4 flex-1 border border-gray-200 rounded-full"
+              class="h-[50px] flex items-center gap-2 px-4 flex-1 border border-gray-500 rounded-full"
             >
               <input type="text" class="flex-1 outline-0" v-model="query" @keyup.enter="send" />
               <a-button type="text" shape="circle">
